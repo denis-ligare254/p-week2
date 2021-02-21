@@ -8,7 +8,12 @@
    ~HTML5
    ~CSS3
    ~News Api
-   # Link to the remote repository
-   -The below link leads to the remote repository 
+# Link to the remote repository
+ -The below link leads to the remote repository 
     ~https://github.com/denis-ligare254/p-week2
+   
+# link to the live link
+ _The below link leeds to the live server
+    ~
+ 
 
