@@ -8,6 +8,13 @@
    ~HTML5
    ~CSS3
    ~News Api
+# downloading the project
+ -Downloading the project is as easy as possible.kindly follow the following steps in order to download the project to your local repository 
+   ~click the link (https://github.com/denis-ligare254/p-week2.) 
+   ~create an empty repositry in yout pc 
+   ~clone the repo localy using the below command 
+   ~git clone (https://github.com/denis-ligare254/p-week2.) 
+   ~lastly open it in your text editor to customize to your favorite taste
 # Link to the remote repository
  -The below link leads to the remote repository 
     ~https://github.com/denis-ligare254/p-week2
