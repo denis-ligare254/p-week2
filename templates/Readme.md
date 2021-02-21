@@ -20,9 +20,10 @@
     ~https://github.com/denis-ligare254/p-week2
    
 # link to the live link
- _The below link leeds to the live server
+ -The below link leeds to the live server
     ~
-
+# future scope
+-The project isnt finished yet,in future am looking foward to improve its functionalities
 # Licence
  Copyright (c) <2021> <Ligare Dennis>
 
