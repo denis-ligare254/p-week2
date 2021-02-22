@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index ():
    NewsKey = NewsApiKey(api_key="0e1fc7cee0e8462e92dd4bb8eb5f98c1")
    '''
-   unique key to help us access news over the internet
+   unique key to help us access news over the internet to the application
    '''
 
 
