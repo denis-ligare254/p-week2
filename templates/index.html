@@ -2,10 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Flask Aljazera English News</title>
- 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Aljazera  News</title>
 </head>
 <body>
  
@@ -15,26 +13,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
     <title>Flask Aljazera English News</title>
- 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
  
 <div class="jumbotron" style="color:black">
  
-    <h1 style="color:black">
+    <h1 style="text-align:center;" class="heading">
 
         Flask Simple News Web Application 
  
     </h1>
  
-</div>
- 
- 
+</div> 
 <div class="container">
- 
-    {% for new, des, i in context %}
+ {% for new, des, i in context %}
  
     <img src="{{i}}" alt="">
     <h3>News: </h3> {{new}}
@@ -54,8 +49,6 @@
     </h1>
  
 </div>
- 
- 
 <div class="container">
  
     {% for new, des, i in context %}
@@ -65,10 +58,6 @@
     <h4>Description: </h4> {{des}}
  
     {% endfor %}
- 
- 
 </div>
- 
- 
 </body>
 </html>
