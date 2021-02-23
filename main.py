@@ -1,4 +1,4 @@
-
+from flask_fontawesome import FontAwesome
 from flask import Flask, render_template
 from newsapi import NewsApiClient
 
